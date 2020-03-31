@@ -1,0 +1,21 @@
+.status{
+  display: flex;
+  .status-icon{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 5px;
+  } 
+  .ativo{
+    background-color: green;
+  }
+  .inativo{
+    background-color: $inativo;
+  }
+  .aguardando{
+    background-color: $aguardando;
+  }
+  .desativado{
+    background-color: $desativado;
+  }
+}

@@ -1,0 +1,21 @@
+.btn{
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 117px;
+  height: 35px;
+  font: {
+    family: $font;
+    size: 16px;
+    weight: 400
+  }
+}
+.btn-laranja{
+  background-color: $laranja;
+  color: #fff;
+}
+.btn-branco{
+  background-color: #fff;
+  color: $laranja;
+  border: solid $laranja 1px;
+}

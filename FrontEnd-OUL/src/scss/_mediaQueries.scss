@@ -1,0 +1,34 @@
+@media(max-width:1200px){main{width: 85%;}}
+@media(max-width:992px){main{width: 90%;}}
+@media(max-width:768px){
+  main{
+    width: 95%;
+  }
+  .lista-container{
+    display: flex !important;
+    justify-content: space-between;
+    .status-msg{
+      display: none;
+    }
+  }
+}
+@media(max-width:600px){
+  .cabecalho{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    .titulos-cabecalho{
+      margin-bottom: 15px;
+    }
+  }
+  .lista-container{
+    display: flex !important;
+    justify-content: space-between;
+    .item-3{
+      display: none;
+    }
+    .item-2{
+      display: none;
+    }
+  }
+}

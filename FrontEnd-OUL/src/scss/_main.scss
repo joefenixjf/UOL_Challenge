@@ -1,0 +1,23 @@
+main{
+  width: 75%;
+  margin: auto;
+  .painel-clientes{
+    margin-top: 90px;
+    padding-bottom: 25px;
+    border-bottom: solid 1px $cor-borda;
+    display: flex;
+    h1{
+      color: $header-color;
+      font: {
+        family:$font;
+        size:28px;
+        weight:400;
+      }
+      position: relative;
+      right: -15px;
+    }
+    img{
+      height: 37px;
+    }
+  }  
+}
